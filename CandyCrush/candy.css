@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://i.redd.it/jo89zfzqi9t51.png);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+.bar {
+    position: fixed;
+    top: 2em;
+    left: 2em;
+    border-radius: 25px;
+    z-index: 10;
+    height: 200px;
+    width: 432px;
+    background-color: rgba(255, 255, 255,1);
+    background: url(https://i.pinimg.com/736x/3f/10/ed/3f10edb4ad114f2e35d148f4f9037d14.jpg);
+    background-position: 50%;
+    background-size: 130%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bar a {
+    position: fixed;
+    color: white;
+    font-family: "Rubik Wet Paint", system-ui;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
+#name {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 200;
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 200;
+    text-align: center;
+    background-image: url(https://i.redd.it/jo89zfzqi9t51.png);
+    background-attachment: fixed;
+    color: white;
+}
+.bar {
+    position: fixed;
+    top: 2em;
+    left: 2em;
+    border-radius: 25px;
+    z-index: 10;
+    height: 200px;
+    width: 432px;
+    background-color: rgba(255, 255, 255,1);
+    background: url(https://i.pinimg.com/736x/3f/10/ed/3f10edb4ad114f2e35d148f4f9037d14.jpg);
+    background-position: 50%;
+    background-size: 130%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bar a {
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    border: 10px solid darkgray;
+    background-color: lightgray;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+
+    /* text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: darkgrey;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+}
