@@ -9,11 +9,11 @@ body {
 }
 .bar {
     position: fixed;
-    left: 2em;
+    left: 29px;
     border-radius: 25px;
     z-index: 10;
     height: 200px;
-    width: 432px;
+    width: 437px;
     background-color: rgba(255, 255, 255,1);
     background: url(https://i.pinimg.com/736x/3f/10/ed/3f10edb4ad114f2e35d148f4f9037d14.jpg);
     background-position: 50%;
